@@ -1,0 +1,193 @@
+.container{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    @media (max-width: 1530px) {
+      
+      width: 90%;
+    }
+}
+.player1{
+    text-align: center;
+    color: aquamarine;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    @media (max-width: 1530px) {
+        display: inline-block;
+        margin-left: 0px;
+        margin-top: 100px;
+      }
+}
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1540' height='860' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1133%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1134%26quot%3b)'%3e%3c/rect%3e%3cpath d='M-98.91555023544274 498.2610853427036L-7.851380625592711 603.0184290916907 96.90596312339432 511.9542594818406 5.841793513544289 407.1969157328536z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M-84.05 119.35 a117.83 117.83 0 1 0 235.66 0 a117.83 117.83 0 1 0 -235.66 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1490.973770931147 239.43283334401207L1413.5366965102994 191.04477883690265 1365.14864200319 268.48185325775034 1442.5857164240376 316.8699077648597z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1178.0258909701656-25.325610779849484L1035.9958753223113 15.40084084642401 1076.7223269485849 157.4308564942783 1218.7523425964391 116.70440486800479z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1031.2730017498536 201.14402507837252L1068.817501970154 108.218126165022 975.8916030568034 70.67362594472169 938.3471028365032 163.59952485807221z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1315.1550117260713 524.7181437844962L1451.2767723772683 500.849942592821 1375.2503240203857 406.9650976954477z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1434.105490216409 308.1611105501123L1468.6606903143602 169.56777284273306 1330.067352606981 135.01257274478175 1295.5121525090296 273.60591045216097z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M738.4433615721798-10.9445038793642L740.576042805563 111.23672215179394 862.7572688367212 109.10404091841073 860.624587603338-13.077185112747408z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1133'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1134'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(106%2c 0%2c 158%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    @media (max-width : 1530) {
+      height: 900px;
+      width: 720px;
+    }
+  }
+footer{
+    margin-top: 40px;
+    text-align: center;
+    justify-content: baseline;
+    font-size: 1.1rem;
+    color: 5AB2FF;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    @media (max-width: 1530px) {
+     font-size: .8rem;
+     margin-top: 200px;
+     justify-content: baseline;
+    }
+}
+h1{
+    font-size: 4.5rem;
+    margin-top: 40px;
+    color:blueviolet;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    border: 5px solid aquamarine;
+    @media (max-width: 1530px) {
+      font-size: 8rem;
+      margin-top: 70px;
+    }
+}
+.two{
+    font-size: 1.8rem;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: 5AB2FF;
+    @media (max-width: 1530px) {
+      font-size: 3.9rem;
+    margin: 20px;
+    }
+}
+.first{
+
+  @media (max-width: 1530px) {
+      height: 380px;
+      width: 380px;
+      margin-top: 0px;
+      
+      margin-bottom: 160px;
+
+      }
+}
+h2{
+    font-size: 3.5rem;
+    margin: 0px;
+    margin-bottom: 0px;
+    color: CAF4FF;
+    @media (max-width: 1530px) {
+      font-size: 5.2rem;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    }
+}
+
+
+h3{
+    font-size: 1.8rem;
+    font-family: cursive;
+    margin: 0;
+    @media (max-width: 1530px) {
+      font-size: 3rem;
+    margin: 20px;
+    }
+    
+}
+.leo{
+  @media (max-width: 1530px) {
+    height: 30px;
+    width: 35px;
+  
+  }
+}
+
+.bn5 {
+    padding: 0.4em .6em;
+    border: none;
+    outline: none;
+    color: 002379;
+    background-color: CAF4FF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-family:cursive ;
+    @media (max-width: 1530px) {
+      font-size: 4rem;
+    margin-top: 2000px;
+    }
+
+
+}
+.btn{
+    justify-content: center;
+    text-align: center;
+}
+  .bn5:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowingbn5 20s linear infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowingbn5 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .bn5:active {
+    color: #000;
+  }
+  
+  .bn5:active:after {
+    background: transparent;
+  }
+  
+  .bn5:hover:before {
+    opacity: 1;
+  }
+  
+  .bn5:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #191919;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
